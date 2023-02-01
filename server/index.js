@@ -43,6 +43,6 @@ io.on("connection", (socket) => {
 
 // To activate the socket in the application, uncomment it
 
-// server.listen(3001, ()=>{
-//   console.log('Server is Running');
-// })
+server.listen(3001, ()=>{
+  console.log('Server is Running');
+})
